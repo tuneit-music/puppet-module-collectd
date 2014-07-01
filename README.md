@@ -399,6 +399,7 @@ class { 'collectd::plugin::redis':
       'host'     => 'node2.example.com',
       'port'     => '6380',
       'timeout'  => 3000,
+      'password' => 'requiredPassword', # optional
     }
   }
 }

@@ -2,9 +2,9 @@
 class collectd::plugin::redis (
   $ensure      = 'present',
   $nodes       = { 'redis' => {
-      'host'    => 'localhost',
-      'port'    => '6379',
-      'timeout' => 2000,
+      'host'     => 'localhost',
+      'port'     => '6379',
+      'timeout'  => 2000,
     }
   },
 ) {
